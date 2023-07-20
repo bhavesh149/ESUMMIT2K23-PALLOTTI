@@ -1,0 +1,12 @@
+.scrolledUp{
+    position: fixed;
+    right: 2.5rem;
+    bottom: 3rem;
+    background-color: #797979;
+    opacity: 0.8;
+    padding: 0.3rem 0.5rem;
+    /* padding: 1.25rem; */
+    border-radius: 0.4rem;
+    z-index: 999;
+    transition: 0.4s;
+}

@@ -1,0 +1,89 @@
+.Speaker{
+    width: 100%;
+    /* height: 40vh; */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,119,1) 57%, rgba(49,130,155,1) 100%, rgba(0,212,255,1) 100%); 
+    /* border-radius: 3% 3% 0 0; */
+    border-radius: 20px 20px 0 0 ;
+}
+
+.Speaker>h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.4rem;
+    font-weight: bold;
+}
+
+.Speaker>.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 0 10rem;
+    flex-wrap: wrap;
+}
+.Speaker>.container>div{
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background-color: #f9f9f9; */
+ 
+}
+
+.Frame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person{
+    position: relative;
+    max-width: 15rem;
+    margin-inline: auto ;
+}
+
+.person_container{
+    /* background-color: aqua; */
+    aspect-ratio: 1 /1.35;
+    display: grid;
+    align-items: end;
+    border-radius: 0 0 100vw 100vw;
+    overflow: hidden;
+    transition: transform 250ms ease-in-out;
+
+  }
+
+  .person_container:hover{
+     transform: scale(1.1);
+  }
+
+  .circle{
+    position: absolute;
+    inset: auto 0 0;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    margin-inline: auto;
+    border-radius: 50%;
+  }
+
+  .person_img{
+    position: relative;
+    z-index: 2;
+    /* width: 24rem;
+    height: 16rem; */
+    /* left: 0.8rem; */
+    transition: transform 250ms ease-in-out;
+  }
+  
+  .person_container:hover >.person_img {
+    transform: scale(1.1)
+    translateY(-2px);
+  }
+
+  .desc{
+    
+  }

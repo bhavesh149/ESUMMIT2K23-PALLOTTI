@@ -1,0 +1,26 @@
+.Sponsors{
+    width: 100%;
+
+}
+
+.Sponsors>h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.4rem;
+    font-weight: bold;
+}
+
+.Sponsors>.container{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 0 10rem;
+    flex-wrap: wrap; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 4rem;
+    flex-wrap: wrap;
+}

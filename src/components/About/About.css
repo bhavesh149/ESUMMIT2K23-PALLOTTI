@@ -1,0 +1,40 @@
+.About{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 3rem;    
+}
+
+.About>h1{
+    display: flex;
+    justify-content: center;
+    padding: 1.4rem;
+    font-weight: bold;
+}
+
+.left{
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    /* background-color: red; */
+}
+
+.left>p{
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+    font-size: 1.3rem;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    /* background-color: aqua; */
+}
+
+.right>div{
+    width: 20rem;
+    height: 12rem;
+    border: 1px solid white;
+}
