@@ -37,7 +37,7 @@ const NavBar = () => {
         <Container>
           <Navbar.Brand href="/">
             {/* <img src={logo} alt="Logo" style={{width: "5rem"}}/> */}
-            <h1 style={{color: "white"}}>IEDC</h1>
+            <h1 style={{color: "white"}}>TECHNEX</h1>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>

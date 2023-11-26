@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="fEnd">
-        <span><h5>IDEC CELL | SVPCET NAGPUR</h5></span>
+        <span><h5>Technex | SVPCET NAGPUR</h5></span>
         <span>
             <a href="https://www.linkedin.com/in/bhavesh-mahajan-b4255922b/" ><AiFillLinkedin style={{width: "2.3rem",height: "2.3rem",color: "white"}}/> </a>
             <a href="/"><AiFillFacebook style={{width: "2.3rem",height: "2.3rem",color: "white"}}/></a>
