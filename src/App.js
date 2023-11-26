@@ -1,5 +1,4 @@
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./pages/Home/Home";
 // import EventPage from "./pages/EventPage/EventPage";
 // import Events from "../src/components/Events/Events";
@@ -12,6 +11,7 @@ import About from "./components/About/About";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 
+import "bootstrap/dist/css/bootstrap.min.css";
 function App({Components,pageProps}) {
   return (
     <div className="App">

@@ -1,6 +1,4 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-// import { NavBar } from "./components/NavBar";
 import Events from "../../components/Events/Events";
 import  NavBar  from "../../components/NavBar/NavBar";
 import Speaker from "../../components/Speaker/Speaker";
