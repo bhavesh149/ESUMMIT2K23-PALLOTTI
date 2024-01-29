@@ -2,6 +2,7 @@
   "name": "esummit2k23",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@react-three/drei": "^9.57.2",
     "@react-three/fiber": "^8.12.0",
