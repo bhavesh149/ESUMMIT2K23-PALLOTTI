@@ -131,7 +131,7 @@ export const Banner = () => {
         {/* <button className="button-89" role="button">Register</button> */}
 
 
-        <button className="button-89" >Register</button>
+        <button className="button-89" >Register Here</button>
         
         </div>
         <Clock
